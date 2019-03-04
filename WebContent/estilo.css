@@ -1,0 +1,198 @@
+
+body {
+	background-image: url("fondoweb.jpg");
+}
+
+.busqueda{
+	background-image: url("menu.jpg");
+	float:left;
+	padding: 10px;
+	margin-left:25%;
+	margin-right:25%;
+	border-style: ridge;
+	border-radius:10px;
+}
+
+.busqueda td{
+	width:20%;
+}
+
+.busqueda input{
+	width:90%;
+}
+
+.cita{
+	float:right;
+	font-style: italic;
+	font-size: x-large;
+	width: 65%;
+	margin-right:5%; 
+	margin-top:8%;
+	text-align: justify;
+	font-weight: bold;
+}
+
+.expo1{
+	padding:30px;
+	float:right;
+	margin-right:15%;
+	font-size: x-large;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-stretch: condensed;
+	width:60%;
+}
+
+.expo1 table{
+	width:100%;
+}
+
+.log{
+	float:left;
+	padding:5px;;
+	border-radius:10px;
+	margin-left:2%;
+}
+
+.log table{
+	background-image: url("menu.jpg");
+	margin:15px;
+	border-radius:10px;
+	width:15%;
+	height:100%;
+	border:1px solid black;
+}
+
+.log td{
+	font-family: sans-serif;
+	font-stretch: condensed;
+	font-weight: bold;
+	padding:4px;
+}
+
+.logo{
+	float:left;
+	width:135px; 
+	height:135px; 
+	margin-left:8%; 
+	margin-top:5%;
+}
+
+.menu{
+	float:left;
+	margin-top:3%;
+	margin-left:5%;
+	margin-right:5%;
+	width:90%;
+}
+
+.menu ul{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 10px;
+	margin: 5%;
+	border-style: ridge;
+	background-image: url("menu.jpg");
+	border-radius:10px;
+	font-family: sans-serif;
+
+	font-weight: bold;
+	}
+
+
+.menu li {
+	float:left;
+	padding-left:5;
+	width: 14%;
+	margin-left:0;
+	}
+
+.menu li a{
+	padding-left:14%;
+	text-decoration: none;
+	color: navy;
+	font-style: normal;
+	font-size: large;
+	}
+	
+.navmenu{
+	float: left;
+	margin-left:3%;
+}
+
+.navmenu table{
+	background-image: url("menu.jpg");
+	margin:15px;
+	border-radius:10px;
+	width:100%;
+	height:100%;
+	border:1px solid black;
+	
+/* 	width:15%; */
+/* 	height:100%; */
+/* 	border:1px solid black; */
+}
+	
+.navmenu tr{
+	padding:5px;
+	text-align: center;
+	margin:10px;
+}
+
+.navmenu tr:hover{
+	background-color: gray;
+	border-bottom: thin;	
+}
+
+.navmenu td {
+	padding:7px;
+	border-bottom: thin;
+	border:1px solid black;
+	border-radius:5px;
+}
+
+.navmenu a{
+	text-decoration: none;
+	color: navy;
+}
+
+.pasarela1{
+	padding:30px;
+	padding-top:0px;
+	float:right;
+	margin-right:15%;
+	width:60%;
+}
+
+.pasarela1 table{
+	width:100%;
+	background-image: url("menu.jpg");
+	border-radius:10px;	
+	border:1px solid black;
+	font-size: medium;
+	font-family: sans-serif;	
+	font-stretch: condensed;
+	font-weight: bold;
+}
+
+.pasarela1 td{
+	text-align: center;
+	padding:5px;
+}
+
+.pasarela1 img{
+	padding:15px;
+	width:140px;
+	height:200px;
+}
+
+.pasarela1 input{
+	margin-bottom:10px;
+}
+
+.subt{
+	font-family: sans-serif;
+	font-stretch: condensed;
+	font-weight: bold;
+	background-color: gray;
+}
